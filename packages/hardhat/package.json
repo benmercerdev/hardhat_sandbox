@@ -38,6 +38,8 @@
     "postdeploy": "hardhat run scripts/publish.js",
     "watch": "node scripts/watch.js",
     "accounts": "hardhat accounts",
+    "automine": "hardhat automine",
+    "blockNumber": "hardhat blockNumber",
     "balance": "hardhat balance",
     "send": "hardhat send",
     "generate": "hardhat generate",
