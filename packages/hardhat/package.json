@@ -38,7 +38,7 @@
     "postdeploy": "hardhat run scripts/publish.js",
     "watch": "node scripts/watch.js",
     "accounts": "hardhat accounts",
-    "automine": "hardhat automine",
+    "intervalMine": "hardhat intervalMine",
     "blockNumber": "hardhat blockNumber",
     "balance": "hardhat balance",
     "send": "hardhat send",

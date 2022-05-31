@@ -553,7 +553,7 @@ task("accounts", "Prints the list of accounts", async (_, { ethers }) => {
   accounts.forEach((account) => console.log(account));
 });
 
-task("automine", "Change mining method to auto-mine", async (_, {ethers}) => {
+task("intervalMine", "Change mining method to interval 5 secs", async (_, {ethers}) => {
   await ethers.provider.send("evm_setIntervalMining", [5000]);
 });
 
