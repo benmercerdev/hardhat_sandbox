@@ -39,6 +39,7 @@
     "watch": "node scripts/watch.js",
     "accounts": "hardhat accounts",
     "intervalMine": "hardhat intervalMine",
+    "addDay": "hardhat addDay",
     "blockNumber": "hardhat blockNumber",
     "balance": "hardhat balance",
     "send": "hardhat send",

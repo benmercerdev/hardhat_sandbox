@@ -557,6 +557,10 @@ task("intervalMine", "Change mining method to interval 5 secs", async (_, {ether
   await ethers.provider.send("evm_setIntervalMining", [5000]);
 });
 
+task("addDay", "Add day to EVM", async (_, {ethers}) => {
+  await ethers.provider.send("evm_increaseTime", [86400]);
+});
+
 task("blockNumber", "Prints the block number", async (_, { ethers }) => {
   const blockNumber = await ethers.provider.getBlockNumber();
   console.log(blockNumber);
